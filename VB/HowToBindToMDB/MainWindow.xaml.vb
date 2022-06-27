@@ -1,7 +1,5 @@
 Imports DevExpress.Xpf.PivotGrid
-Imports System.Data
 Imports System.Data.OleDb
-Imports System.Windows
 
 Namespace HowToBindToMDB
 
