@@ -4,7 +4,6 @@ Imports System.Data.OleDb
 Imports System.Windows
 
 Namespace HowToBindToMDB
-
     ''' <summary>
     ''' Interaction logic for MainWindow.xaml
     ''' </summary>
