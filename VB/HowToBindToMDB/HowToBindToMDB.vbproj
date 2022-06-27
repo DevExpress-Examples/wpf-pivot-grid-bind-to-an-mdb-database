@@ -17,7 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Update="nwind.mdb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>
