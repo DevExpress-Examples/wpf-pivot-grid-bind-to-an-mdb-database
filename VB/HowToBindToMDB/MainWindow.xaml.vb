@@ -24,7 +24,7 @@ Namespace HowToBindToMDB
             adapter.Fill(sourceDataSet, "SalesPerson")
             ' Assign the data source to the PivotGrid control.
             pivotGridControl1.DataSource = sourceDataSet.Tables("SalesPerson")
-
+            pivotGridControl1.DataProcessingEngine = DataProcessingEngine.Optimized
             pivotGridControl1.BeginUpdate()
             AddField("Country", FieldArea.RowArea, "Country", 0)
             AddField("Person", FieldArea.RowArea, "Sales Person", 1)
