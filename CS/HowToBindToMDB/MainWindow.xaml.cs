@@ -25,7 +25,7 @@ namespace HowToBindToMDB {
 
             // Assign the data source to the PivotGrid control.
             pivotGridControl1.DataSource = sourceDataSet.Tables["SalesPerson"];
-            pivotGridControl1.DataProcessingEngine = DataProcessingEngine.Optimized;
+
 
             pivotGridControl1.BeginUpdate();
 
